@@ -3,9 +3,14 @@ venv/
 
 # התעלמות מהמפתחות הסודיים (קריטי לאבטחה!)
 .env
+config.json
 
 # התעלמות מבסיס הנתונים (הוא נוצר מקומית)
 hit_db/
+
+# scraping preview (debug)
+webbase_scrape_preview.txt
+.hf_cache/
 
 # קבצי זבל של פייתון
 __pycache__/
