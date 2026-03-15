@@ -27,7 +27,7 @@ def setup_vectorstore():
     # הגדרת מודל ה-Embeddings (זהה לזה שהשתמשנו ב-Ingestion)
     # תיקנתי כאן את טעות הכתיב מהצילום (embeddings עם 2 d)
     embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         cache_folder=cache_dir
     )
     
@@ -98,7 +98,7 @@ st.set_page_config(
 )
 
 # כותרת ראשית לאפליקציה
-st.title("📚 Multi Documents Chatbot")
+st.title("📚 HIT Assistant")
 
 # אתחול היסטוריית הצ'אט בזיכרון של הדפדפן (Session State)
 if "chat_history" not in st.session_state:
