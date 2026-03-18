@@ -2,6 +2,7 @@ streamlit
 langchain==0.3.28
 langchain-community==0.3.28
 langchain-text-splitters==0.3.11
+langchain-groq
 beautifulsoup4
 chromadb
 groq
